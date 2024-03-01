@@ -55,5 +55,10 @@ public class Student {
     public void setAddress(Address address) {
         this.address = address;
     }
-    
+
+    public Student(String name,String CNIC, Address address) {
+        setName(name);
+        setCNIC(CNIC);
+        setAddress(address);
+    }
 }
